@@ -1,0 +1,24 @@
+{
+  "name": "stamford-schools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevindeland/stamford-schools.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevindeland/stamford-schools/issues"
+  },
+  "homepage": "https://github.com/kevindeland/stamford-schools#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "request": "^2.62.0",
+    "underscore": "^1.8.3"
+  }
+}
