@@ -1,0 +1,12 @@
+applications:
+- host: stamford-schools-api
+  name: stamford-schools-api
+  disk_quota: 128M
+  command: node app.js
+  path: .
+  domain: mybluemix.net
+  memory: 128M
+  instances: 1
+  env:
+    NODE_ENV: development
+    BM_INSTANCE: public 
