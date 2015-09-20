@@ -31,6 +31,11 @@ app.get('/api/schools/details', function(req, res) {
     res.send(match);
 });
 
+app.get('/api/schools/all', function(req, res) {
+
+    res.send(require(__dirname + '/config/data').schools);
+});
+
 var host = (process.env.VCAP_APP_HOST || 'localhost');
 var port = (process.env.VCAP_APP_PORT || 3000);
 // Start server
